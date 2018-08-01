@@ -15,8 +15,7 @@ stock information table, stock price/volume/indicator chart and stock news. ![Sc
 
 4. Alpha Vantage APIs has two kinds of web services: Daily Time Series Data and Technical Indicators. The Daily Time Series Data web service returns a JSON file which contains the historical stock quote of the company, and Technical Indicators  returns a JSON file which contains the indicator specific data.
 
-> Example Technical Indicator : https://www.alphavantage.co/query?
-function=SMA&symbol=MSFT&interval=weekly&time_period=10&series_type=open&apikey=demo
+> Example Technical Indicator : https://www.alphavantage.co/query?function=SMA&symbol=MSFT&interval=weekly&time_period=10&series_type=open&apikey=demo
 
 > Example Daily Time Series Data : https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo ![Screenshot](Screenshots/DataFormat.png)
 
